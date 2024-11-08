@@ -6,6 +6,10 @@ with Traffic lights.
 Connected peer to peer with analog pins using the Lib <Wire.h> 
 and sending I2C.
 
+Simulation:
+
+<img width="934" alt="image" src="https://github.com/user-attachments/assets/416c29ae-ce42-457c-b347-758fc5230cbb">
+
 Class_Diagram:
 
 <img width="464" alt="Class_Diagram" src="https://github.com/user-attachments/assets/40653dd5-da2c-4471-933d-09217372719d">
