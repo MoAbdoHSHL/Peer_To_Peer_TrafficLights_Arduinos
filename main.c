@@ -24,10 +24,10 @@ void loop() {
         Wire.write('B');           // Send 'B' for button press
         Wire.endTransmission();
 
-        delay(2000); 
+        delay(5000); 
         digitalWrite(7, HIGH);    
         digitalWrite(6, LOW);     
-        delay(6000); 
+        delay(10000); 
       
         // Reset to initial state
         digitalWrite(7, LOW);     
@@ -67,14 +67,14 @@ void loop() {
         case YELLOW:
             digitalWrite(11, LOW);    
             digitalWrite(12, HIGH);   
-            delay(2000);              
+            delay(5000);              
             currentState = RED_WITH_PEDESTRIAN_GREEN;
             break;
 
         case RED_WITH_PEDESTRIAN_GREEN:
             digitalWrite(12, LOW);   
             digitalWrite(13, HIGH);   
-            delay(6000);              
+            delay(10000);              
             currentState = YELLOW_AFTER_RED; 
             break;
 
@@ -82,7 +82,7 @@ void loop() {
            
             digitalWrite(13, LOW);    
             digitalWrite(12, HIGH);   
-            delay(2000);             
+            delay(5000);             
             digitalWrite(12, LOW);    
             digitalWrite(11, HIGH);  
             currentState = GREEN;     
