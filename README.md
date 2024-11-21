@@ -10,6 +10,11 @@ Simulation:
 
 <img width="934" alt="image" src="https://github.com/user-attachments/assets/416c29ae-ce42-457c-b347-758fc5230cbb">
 
+Real_Lab_Simulation:
+
+![WhatsApp Image 2024-11-21 at 8 41 49 AM](https://github.com/user-attachments/assets/a881caac-4c03-4067-a667-cea1a25d21ce)
+
+
 Class_Diagram:
 
 <img width="464" alt="Class_Diagram" src="https://github.com/user-attachments/assets/40653dd5-da2c-4471-933d-09217372719d">
